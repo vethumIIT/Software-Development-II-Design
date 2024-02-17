@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import org.controlsfx.control.textfield.*?>
+
+<VBox alignment="CENTER" prefHeight="716.0" prefWidth="331.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.sd2designjavafx.HelloController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+   <Label fx:id="signuplabel" alignment="TOP_LEFT" layoutX="93.0" layoutY="56.0" text="Sign Up" translateX="-40.0">
+      <font>
+         <Font size="24.0" />
+      </font>
+   </Label>
+    <Label fx:id="personalDetails" alignment="TOP_LEFT" layoutX="68.0" layoutY="30.0" text="Personal Details">
+        <font>
+            <Font size="17.0" />
+        </font>
+    </Label>
+   <Label fx:id="fname" layoutX="93.0" layoutY="73.0" text="First Name" translateX="-65.0" translateY="20.0" />
+   <TextField layoutX="42.0" layoutY="90.0" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="25.0" prefWidth="119.0" translateX="30.0" />
+
+    <Label fx:id="lname" layoutX="93.0" layoutY="73.0" text="Last Name" translateX="-65.0" translateY="20.0" />
+    <TextField layoutX="42.0" layoutY="90.0" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="25.0" prefWidth="119.0" translateX="30.0" />
+
+    <Label fx:id="age" layoutX="93.0" layoutY="73.0" text="Age" translateX="-65.0" translateY="20.0" />
+    <TextField layoutX="42.0" layoutY="90.0" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="25.0" prefWidth="119.0" translateX="30.0" />
+
+    <Label fx:id="bday" layoutX="93.0" layoutY="73.0" text="Birthday" translateX="-65.0" translateY="20.0" />
+    <TextField layoutX="42.0" layoutY="90.0" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="25.0" prefWidth="119.0" translateX="30.0" />
+   <Label fx:id="genderLabel" layoutX="88.0" layoutY="191.0" text="Gender" translateX="-65.0" translateY="20.0" />
+   <RadioButton mnemonicParsing="false" text="Male" />
+   <RadioButton mnemonicParsing="false" text="Female" />
+   <Label fx:id="bday2" layoutX="88.0" layoutY="191.0" text="Civil Status" translateX="-65.0" translateY="20.0" />
+   <TextField layoutX="51.0" layoutY="208.0" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="25.0" prefWidth="119.0" translateX="30.0" />
+   <Label fx:id="bday21" layoutX="81.0" layoutY="284.0" text="Country" translateX="-65.0" translateY="20.0" />
+   <TextField layoutX="51.0" layoutY="301.0" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="25.0" prefWidth="119.0" translateX="30.0" />
+   <Label fx:id="contactDetailLabel" alignment="TOP_LEFT" layoutX="68.0" layoutY="30.0" text="Contact Details">
+      <font>
+         <Font size="17.0" />
+      </font>
+   </Label>
+
+    <Label fx:id="email" text="E-mail" translateX="-75.0" translateY="20.0" />
+   <TextField maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="25.0" prefWidth="136.0" translateX="20.0" />
+    <Label fx:id="mobile" text="Mobile" translateX="-75.0" translateY="20.0" />
+    <TextField maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="25.0" prefWidth="136.0" translateX="20.0" />
+
+    <Label fx:id="loginDetails" alignment="TOP_LEFT" layoutX="68.0" layoutY="30.0" text="Login Details">
+        <font>
+            <Font size="17.0" />
+        </font>
+    </Label>
+    <Label fx:id="username" text="User Name" translateX="-75.0" translateY="20.0" />
+    <TextField maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="25.0" prefWidth="136.0" translateX="20.0" />
+
+    <Label fx:id="passwd" text="Password" translateX="-75.0" translateY="20.0" />
+    <CustomPasswordField maxWidth="-Infinity" prefHeight="25.0" prefWidth="136.0" translateX="20.0" />
+
+    <Label fx:id="conPasswd" text="Confirm Password" translateX="-75.0" translateY="20.0" />
+    <CustomPasswordField maxWidth="-Infinity" prefHeight="25.0" prefWidth="136.0" translateX="20.0" />
+
+   <Button cacheShape="false" centerShape="false" mnemonicParsing="false" text="Submit" translateY="20.0" />
+    <Button alignment="CENTER_RIGHT" cacheShape="false" centerShape="false" mnemonicParsing="false" text="Clear" translateX="50.0" translateY="-5.0" />
+
+
+</VBox>

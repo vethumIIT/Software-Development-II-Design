@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import org.controlsfx.control.textfield.*?>
+
+<VBox alignment="CENTER" prefHeight="200.0" prefWidth="234.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.sd2designjavafx.HelloController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+   <Label fx:id="email1" alignment="TOP_LEFT" layoutX="93.0" layoutY="56.0" text="Welcome" translateX="-40.0">
+      <font>
+         <Font size="24.0" />
+      </font>
+   </Label>
+
+    <Label fx:id="email" text="User Name" translateX="-75.0" translateY="20.0" />
+   <TextField maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="25.0" prefWidth="136.0" translateX="25.0" />
+    <Label text="Password" translateX="-75.0" translateY="20.0" />
+    <CustomPasswordField maxWidth="-Infinity" prefHeight="25.0" prefWidth="136.0" translateX="25.0" />
+
+   <Button cacheShape="false" centerShape="false" mnemonicParsing="false" text="Sign In" translateX="50.0" translateY="20.0" />
+
+
+</VBox>
